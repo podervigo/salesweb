@@ -15,6 +15,7 @@ namespace SalesWeb.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Message"] = "OK";
             return View();
         }
 
